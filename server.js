@@ -1,7 +1,7 @@
 let express = require("express")
 let {MongoClient, ObjectId} = require("mongodb")
 
-let port = process.env.PORT
+let port = process.env.port
 if (port == null || port == "") {
     port = 3000
 }
